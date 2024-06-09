@@ -10,7 +10,7 @@ pipeline{
             steps{
                 script{
                     sh 'docker build . -t hellodocker'
-                    sh 'docker taghellodocker vishaljainhk/learning'
+                    sh 'docker tag hellodocker vishaljainhk/learning'
                 }
             }
         }
